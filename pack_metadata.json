@@ -1,0 +1,17 @@
+{
+    "name": "Mobileiron-UEM",
+    "description": "Mobileiron UEM Integration",
+    "support": "partner",
+    "currentVersion": "1.0.0",
+    "author": "Mobileiron Inc. (KLOG Solutions Pvt Ltd)",
+    "url": "",
+    "email": "",
+    "created": "2020-10-12T08:22:22Z",
+    "categories": [
+        "Endpoint"
+    ],
+    "tags": [],
+    "useCases": [],
+    "keywords": [],
+    "githubUser": []
+}

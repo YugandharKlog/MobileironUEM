@@ -1,0 +1,112 @@
+{
+	"action": "dropAndUpdate",
+	"enabled": true,
+	"existingEventsFilters": [
+		[
+			{
+				"ignoreCase": false,
+				"left": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "deviceid"
+					}
+				},
+				"operator": "isIdenticalIncident",
+				"right": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "${incident.deviceid}"
+					}
+				},
+				"type": "longText"
+			}
+		],
+		[
+			{
+				"ignoreCase": false,
+				"left": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "severity"
+					}
+				},
+				"operator": "isIdenticalIncident",
+				"right": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "${incident.severity}"
+					}
+				},
+				"type": "singleSelect"
+			}
+		]
+	],
+	"fromServerVersion": "",
+	"id": "21d1c9c8-0038-4ea8-8f19-97df509bd6ed",
+	"index": 0,
+	"itemVersion": "",
+	"linkTo": "oldest",
+	"locked": false,
+	"name": "Mobileiron-Pre-Process-Rules",
+	"newEventFilters": [],
+	"packID": "",
+	"period": {
+		"by": "days",
+		"fromValue": 30
+	},
+	"readyExistingEventsFilters": [
+		[
+			{
+				"ignoreCase": false,
+				"left": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "deviceid"
+					}
+				},
+				"operator": "isIdenticalIncident",
+				"right": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "${incident.deviceid}"
+					}
+				},
+				"type": "longText"
+			}
+		],
+		[
+			{
+				"ignoreCase": false,
+				"left": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "severity"
+					}
+				},
+				"operator": "isIdenticalIncident",
+				"right": {
+					"isContext": true,
+					"value": {
+						"complex": null,
+						"simple": "${incident.severity}"
+					}
+				},
+				"type": "singleSelect"
+			}
+		]
+	],
+	"readyNewEventFilters": [],
+	"scriptName": "",
+	"searchClosed": false,
+	"sortValues": null,
+	"system": false,
+	"toServerVersion": "",
+	"version": -1
+}
